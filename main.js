@@ -63,7 +63,7 @@ function main() {
         alert(RESULTADO);
 
         const RESPUESTA = prompt('¿Desea calcular el IMC para otra persona? (S/N)');
-        if (RESPUESTA !== 's') {
+        if (RESPUESTA.toLowerCase() !== 's') {
             break;
         }
     }
